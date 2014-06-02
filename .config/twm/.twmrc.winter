@@ -1,0 +1,237 @@
+# Install
+# x11-fonts/artwiz-aleczapka-en
+AutoRelativeResize
+BorderWidth 8
+#ClientBorderWidth
+#DecorateTransients
+DontMoveOff
+FramePadding 4
+IconFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
+IconManagerDontShow { "guake" "xclock" "wbar" "panel" "Gnome-pie" "tickr" }
+IconManagerFont "-*-courier-bold-r-*-*-*-100-*-*-*-*-*-*"
+IconManagerGeometry  "236x100-0+0"
+IconifyByUnmapping
+MenuBorderWidth 4
+MenuFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
+#MaxWindowSize "1264x1024+0-0"
+MaxWindowSize "1264x895"
+NoGrabServer
+NoHighlight { "guake" "wbar" "xclock" "panel" "Gnome-pie" "tickr" }
+NoStackMode { "guake" "wbar" "panel" "Gnome-pie" "tickr" }
+NoTitle { "guake" "MPlayer" "xclock" "wbar" "VDR" "panel" "Chrome" "Gnome-pie" "tickr" "xfce4-notifyd" }
+NoTitleFocus
+NoTitleHighlight
+ResizeFont "-adobe-helvetica-bold-r-normal--*-120-*-*-*-*-*-*"
+RestartPreviousState
+SortIconManager
+#SqueezeTitle
+StartIconified { "Sonata" "ticrk" }
+TitleFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
+# usare xprop per vedere la WM_CLASS dell'applicazione che si
+# vuole aggiungere
+UsePPosition "On"
+WindowRing {"xterm" "emacs" "Chrome" "Eclipse" "filezilla" "Firefox" "GeoGebra" "opera" "MPlayer" "cmus" "display" "Skype" "ninja-ide" "ROX-Filer" "Chrome" "xmix" "gtmixer" }
+
+Color
+{
+    BorderColor "rgb:0e/44/c2" {
+	"Chrome" "RoyalBlue2"
+	"Clementine" "orange"
+	"Cmus" "rgb:6c/4d/36"
+	"Eclipse" "MediumPurple4"
+	"Emacs" "orange"
+	"Firefox" "orange"
+	"MKGI Chess Club - Mozilla Firefox" "rgb:88/88/ff"
+	"FoxitReader" "sienna1"
+	"GeoGebra" "MediumPurple1"
+	"Gedit" "rgb:86/21/12"
+        "Gimp" "rgb:8b/79/5e"
+	"Gnome-pie" "rgb:0e/44/c2"
+        "GQview" "goldenrod1"
+	"Guake" "black"
+	"Opera" "red"
+	"Panel" "rgb:a0/b1/cb"
+	"Pidgin" "rgb:7a/4a/85"
+	"ROX-Filer" "rgb:66/99/cc"
+	"Skype" "turquoise4"
+	"Sonata" "cyan"
+	"Thunderbird" "pink"
+	"VirtualBox" "rgb:41/18/39"
+	"Vlc" "rgb:d8/78/15"
+	"Xcalc" "rgb:99/aa/99"
+	"XClock" "rgb:0e/44/c2"
+	"gtmixer" "rgb:36/64/8b"
+	"xmix" "rgb:36/64/8b"
+	"xzoom" "YellowGreen"
+	"XTerm" "red"
+	"Xpdf" "LightSkyBlue"
+    }
+    BorderTileBackground "rgb:3a/68/d7" {
+	"Chrome" "RoyalBlue2"
+	"Clementine" "orange"
+	"Cmus" "rgb:6c/4d/36"
+	"Eclipse" "MediumPurple4"
+	"Emacs" "orange"
+	"Firefox" "orange"
+        "MKGI Chess Club - Mozilla Firefox" "rgb:88/88/ff"
+	"FoxitReader" "sienna1"
+	"Gedit" "rgb:86/21/12"
+	"GeoGebra" "MediumPurple1"
+        "Gimp" "rgb:8b/79/5e"
+	"Gnome-pie" "rgb:0e/44/c2"
+        "GQview" "goldenrod1"
+	"Opera" "red"
+	"Panel" "rgb:3a/68/d7"
+	"Pidgin" "rgb:7a/4a/85"
+	"ROX-Filer" "rgb:66/99/cc"
+	"Skype"	 "turquoise4"
+	"Sonata" "cyan"
+	"Thunderbird" "pink"
+	"VirtualBox" "rgb:41/18/39"
+	"Vlc" "rgb:d8/78/15"
+	"xcalc" "rgb:99/aa/99"
+	"XClock" "rgb:3a/68/d7"
+	"xzoom" "YellowGreen"
+	"gtmixer" "rgb:36/64/8b"
+	"xmix" "rgb:36/64/8b"
+	"XTerm" "red"
+	"Xpdf" "LightSkyBlue"
+    }
+
+    BorderTileForeground "rgb:d9/d9/d9"
+
+    DefaultBackground "rgb:3a/68/d7"
+    DefaultForeground "rgb:d9/d9/d9"
+
+    IconBackground "rgb:3a/68/d7"
+    IconBorderColor "rgb:d9/d9/d9"
+    IconForeground "rgb:d9/d9/d9"
+    IconManagerBackground "rgb:3a/68/d7"
+    IconManagerForeground "rgb:d9/d9/d9"
+
+    MenuBorderColor "rgb:d9/d9/d9"
+    MenuBackground "rgb:3a/68/d7"
+    MenuForeground "rgb:d9/d9/d9"
+    MenuTitleForeground "rgb:3a/68/d7"
+    MenuTitleBackground "rgb:d9/d9/d9"
+
+
+    #TitleBackground "rgb:d9/d9/d9" {
+    TitleBackground "rgb:3a/68/d7" {
+	"Chrome" "RoyalBlue2"
+	"Clementine" "orange"
+	"Cmus" "rgb:6c/4d/36"
+	"Emacs" "orange"
+	"Firefox" "orange"
+        "MKGI Chess Club - Mozilla Firefox" "rgb:88/88/ff"
+	"FoxitReader" "sienna1"
+	"Gedit" "rgb:86/21/12"
+	"GeoGebra" "MediumPurple1"
+        "Gimp" "rgb:8b/79/5e"
+        "GQview" "goldenrod1"
+	"Eclipse" "MediumPurple4"
+	"Opera" "red"
+	"Pidgin" "rgb:7a/4a/85"
+	"ROX-Filer" "rgb:66/99/cc"
+	"Skype"	 "turquoise4"
+	"Sonata" "cyan"
+	"Thunderbird" "pink"
+	"VirtualBox" "rgb:41/18/39"
+	"Vlc" "rgb:d8/78/15"
+        "Xcalc" "rgb:99/aa/99"
+	"XClock" "rgb:d9/d9/d9"
+	"gtmixer" "rgb:36/64/8b"
+	"xmix" "rgb:36/64/8b"
+	"xzoom" "YellowGreen"
+	"XTerm" "red"
+	"Xpdf" "LightSkyBlue"
+    }
+    TitleForeground "white" {
+        "Cmus" "rgb:ff/d6/a6"
+        "GQview" "rgb:30/3a/cf"
+        "Xcalc" "rgb:99/aa/99"
+	"gtmixer" "rgb:a4/d3/ee"
+	"xmix" "rgb:a4/d3/ee"
+        "Xzoom" "YellowGreen"
+    }
+}
+
+Function "move-or-iconify" { f.move f.deltastop f.iconify }
+Function "move-or-lower" { f.move f.deltastop f.lower }
+Function "move-or-raise" { f.move f.deltastop f.raise }
+
+Button1 = : icon : f.function "move-or-iconify"
+Button1 = : iconmgr : f.raise
+Button1 = : title : f.function "move-or-raise"
+Button1 = m : window|icon : f.function "move-or-lower"
+Button2 = : icon : f.iconify
+Button2 = : title : f.fullzoom
+Button2 = m : window|icon : f.iconify
+Button3 = : iconmgr : f.iconify
+Button3 = : root : f.menu "defops"
+Button3 = : title : f.delete
+Button3 = m : window|icon : f.function "move-or-raise"
+
+"F4" = m | s :all :f.delete
+"F5" = m :all :f.fullzoom
+"F6" = m :all :f.iconify
+"F7" = m :all :f.horizoom
+"F8" = m :all :f.zoom
+#"F9" = m :all :f.leftzoom
+#"F9"  = :all : f.exec "skippy-xd-fix"
+"F10" = m :all: f.rightzoom
+"F12" = :all: f.exec "guake --show-hide"
+
+"Print" = :all :f.exec "scrot -s '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/multimedia/images/screenshots/'&"
+"Tab" = m :all :f.warpring "next"
+"XF86AudioLowerVolume" = :all :f.exec "mixerManager.py lower&"
+"XF86AudioMedia" = :all :f.exec "/home/nivit/bin/cmus-now-playing.sh&"
+"XF86AudioMute" = :all :f.exec "mixerManager.py mute&"
+"XF86AudioPrev" = :all :f.exec "cmus-remote -r&"
+"XF86AudioNext" = :all :f.exec "cmus-remote -n&"
+"XF86AudioRaiseVolume" = :all :f.exec "mixerManager.py raise&"
+#"XF86Community" = :all :f.exec "pidgin&"
+"XF86Mail" = :all :f.exec "thunderbird -P&"
+"XF86WWW" = :all :f.exec "exec opera&"
+"XF86Finance" = :all :f.exec "cmus-now-playing.sh&"
+
+"c" = m|c :all :f.exec "guake -n mc -r mc -e mc&"
+"h" = m|c :all :f.hideiconmgr
+"k" = m|c :all :f.exec "tellme.sh&"
+"p" = m|c :all :f.exec "gnome-pie --class=Gnomepie --name=gnomepie&"
+"s" = m|c :all :f.showiconmgr
+
+menu "defops" ("rgb:3a/68/d7" : "rgb:d9/d9/d9")
+{
+	"Twm"	f.title
+	"Iconify"	f.iconify
+	"Resize"	f.resize
+	"Move"		f.move
+	"Raise"		f.raise
+	"Lower"		f.lower
+	"Focus"		f.focus
+	"Unfocus"	f.unfocus
+	"Show Iconmgr"	f.showiconmgr
+	"Hide Iconmgr"	f.hideiconmgr
+	"Terminali"	f.title
+	"Xterm"		f.exec "exec xterm -geometry 80x24+220+260&"
+	"Applicazioni"	f.title
+	"GQview"	f.exec "exec gqview&"
+	"Firefox"	f.exec "exec firefox&"
+	"Gimp"		f.exec "exec gimp&"
+	"Tell me"	f.exec "exec tellme.sh&"
+        "Tickr"		f.exec "exec tickr&"
+	"Translate me"	f.exec "exec translate-me.py&"
+	"Volume +"	f.exec "exec mixerManager.py raise&"
+	"Volume -"	f.exec "exec mixerManager.py lower&"
+	"XWindows Utility"		f.title
+	"Kill"		f.destroy
+	"Delete"	f.delete
+        "Screenshot"    f.exec "exec scrot -s '%Y-%m-%d_$wx$h.png' -q 100 -e 'mv $f ~/multimedia/images/screenshots/'&"
+	"XCalc"		f.exec "exec xcalc&"
+	"XColorsel"	f.exec "exec xcolorsel -rgb8&"
+        "XScreesaver"   f.exec "exec xscreensaver-command -lock&"
+	"Xzoom"		f.exec "exec xzoom&"
+	"Restart"	f.restart
+	"Exit"		f.quit
+}

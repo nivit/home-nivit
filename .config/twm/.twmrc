@@ -1,0 +1,186 @@
+# Install
+# x11-fonts/artwiz-aleczapka-en
+AutoRelativeResize
+BorderWidth 8
+#ClientBorderWidth
+# atunes
+#DecorateTransients
+DontMoveOff
+FramePadding 4
+IconFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
+IconManagerDontShow { "guake" "xclock" "wbar" "panel" "Gnomepie" }
+IconManagerFont "-*-courier-bold-r-*-*-*-100-*-*-*-*-*-*"
+IconManagerGeometry  "236x100-0+0"
+IconifyByUnmapping
+MenuBorderWidth 4
+MenuFont "-*-gelly-*-*-*-*-*-*-*-*-*-*-*-*"
+NoGrabServer
+NoHighlight { "guake" "wbar" "xclock" "panel" "Gnomepie" }
+NoStackMode { "guake" "wbar" "panel" "Gnomepie" }
+NoTitle { "guake" "MPlayer" "xclock" "wbar" "VDR" "panel" "Chrome" "Gnomepie" }
+NoTitleHighlight
+#RandomPlacement
+ResizeFont "-adobe-helvetica-bold-r-normal--*-120-*-*-*-*-*-*"
+#RestartPreviousState
+SortIconManager
+#SqueezeTitle
+StartIconified { "Pidgin" "Sonata" }
+TitleFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
+# usare xprop per vedere la WM_CLASS dell'applicazione che si
+# vuole aggiungere
+UsePPosition "On"
+WindowRing {"xterm" "emacs" "chrome" "Eclipse" "filezilla" "Firefox" "GeoGebra" "opera" "MPlayer" "cmus" "display" "Skype" }
+
+Color
+{
+    BorderColor "black" {
+	"Chrome" "RoyalBlue2"
+	"Clementine" "orange"
+	"Cmus" "green"
+	"Eclipse" "MediumPurple4"
+	"Emacs" "orange"
+	"Firefox" "orange"
+	"GeoGebra" "MediumPurple1"
+	"Gnomepie" "firebrick"
+	"Opera"	 "red"
+ 	"Pidgin" "blue"
+	"Skype"	 "turquoise4"
+	"Sonata" "cyan"
+	"Thunderbird" "pink"
+	"XClock" "LightSlateGrey"
+	"XTerm" "red"
+	"Xpdf" "LightSkyBlue"
+    }
+    BorderTileBackground "white" {
+	"Chrome" "RoyalBlue2"
+	"Clementine" "orange"
+	"Cmus" "green"
+	"Eclipse" "MediumPurple4"
+	"Emacs" "orange"
+	"Firefox" "orange"
+	"GeoGebra" "MediumPurple1"
+	"Gnomepie" "firebrick"
+	"Opera" "red"
+	"Pidgin" "blue"
+	"Skype"	 "turquoise4"
+	"Sonata" "cyan"
+	"Thunderbird" "pink"
+	"XClock" "LightSlateGrey"
+	"XTerm" "red"
+	"Xpdf" "LightSkyBlue"
+    }
+
+    BorderTileForeground "black"
+
+    DefaultBackground "black"
+    DefaultForeground "white"
+
+    IconBackground "rgb:0/4/a"
+    IconBorderColor "gray85"
+    IconForeground "gray85"
+    IconManagerBackground "gold1"
+    IconManagerForeground "black"
+
+    MenuBackground "gold1"
+    #MenuBorderColor "MediumPurple"
+    MenuBorderColor "rgb:26/26/26"
+    MenuForeground "black"
+    #MenuTitleBackground "MediumPurple"
+    MenuTitleBackground "rgb:26/26/26"
+    MenuTitleForeground "yellow"
+
+    TitleBackground "black" {
+	"Chrome" "RoyalBlue2"
+	"Clementine" "orange"
+	"Cmus" "green"
+	"Emacs" "orange"
+	"Firefox" "orange"
+	"GeoGebra" "MediumPurple1"
+	"Eclipse" "MediumPurple4"
+	"Opera" "red"
+	"Pidgin" "blue"
+	"Skype"	 "turquoise4"
+	"Sonata" "cyan"
+	"Thunderbird" "pink"
+	"XClock" "LightSlateGrey"
+	"XTerm" "red"
+	"Xpdf" "LightSkyBlue"
+    }
+
+    TitleForeground "white"
+}
+
+Function "move-or-iconify" { f.move f.deltastop f.iconify }
+Function "move-or-lower" { f.move f.deltastop f.lower }
+Function "move-or-raise" { f.move f.deltastop f.raise }
+
+Button1 = : icon : f.function "move-or-iconify"
+Button1 = : iconmgr : f.raise
+Button1 = : title : f.function "move-or-raise"
+Button1 = m : window|icon : f.function "move-or-lower"
+Button2 = : icon : f.iconify
+Button2 = : title : f.fullzoom
+Button2 = m : window|icon : f.iconify
+Button3 = : iconmgr : f.iconify
+Button3 = : root : f.menu "defops"
+Button3 = : title : f.delete
+Button3 = m : window|icon : f.function "move-or-raise"
+
+"F4" = m :all :f.delete
+"F5" = m :all :f.fullzoom
+"F6" = m :all :f.iconify
+"F7" = m :all :f.horizoom
+"F8" = m :all :f.zoom
+"F9" = m :all :f.leftzoom
+#"F9"  = :all : f.exec "skippy-xd-fix"
+"F10" = m :all: f.rightzoom
+"F12" = :all: f.exec "guake --show-hide"
+
+"Print" = :all :f.exec "scrot -d 5 '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/multimedia/images/screenshots/'"
+"Tab" = m :all :f.warpring "next"
+#"XF86AudioLowerVolume" = :all :f.exec "mixerManager.py lower&"
+#"XF86AudioMedia" = :all :f.exec "/home/nivit/bin/cmus-now-playing.sh&"
+#"XF86AudioMute" = :all :f.exec "mixerManager.py mute&"
+#"XF86AudioPrev" = :all :f.exec "cmus-remote -r&"
+#"XF86AudioNext" = :all :f.exec "cmus-remote -n&"
+#"XF86AudioRaiseVolume" = :all :f.exec "mixerManager.py raise&"
+"XF86Community" = :all :f.exec "pidgin&"
+"XF86Mail" = :all :f.exec "thunderbird -P&"
+"XF86WWW" = :all :f.exec "exec opera&"
+"XF86iTouch" = :all :f.exec "cmus-now-playing.sh&"
+
+"h" = m|c :all :f.hideiconmgr
+"k" = m|c :all :f.exec "tellme.sh&"
+"p" = m|c :all :f.exec "gnome-pie --class=Gnomepie --name=gnomepie&"
+"s" = m|c :all :f.showiconmgr
+
+menu "defops" ("DarkSlateGrey" : "MediumPurple")
+{
+	"Twm"	f.title
+	"Iconify"	f.iconify
+	"Resize"	f.resize
+	"Move"		f.move
+	"Raise"		f.raise
+	"Lower"		f.lower
+	"Focus"		f.focus
+	"Unfocus"	f.unfocus
+	"Show Iconmgr"	f.showiconmgr
+	"Hide Iconmgr"	f.hideiconmgr
+	"Terminali"	f.title
+	"Xterm"		f.exec "exec xterm -geometry 80x24+220+260&"
+	"Applicazioni"	f.title
+	#"Adobe Reader"	f.exec "exec acroread8&"
+	#"GQview"	f.exec "exec gqview&"
+        "FoxitReader"   f.exec "exec FoxitReader&"
+	"Stan-matematicamente-pwd"     f.exec "exec stan-matematicamente.sh&"
+	"Tell me"	f.exec "exec tellme.sh&"
+	"Volume +"	f.exec "exec mixerManager.py raise&"
+	"Volume -"	f.exec "exec mixerManager.py lower&"
+	"XWindows Utility"		f.title
+	"Kill"		f.destroy
+	"Delete"	f.delete
+	"XCalc"		f.exec "exec xcalc&"
+	"XColorsel"	f.exec "exec xcolorsel -rgb8&"
+	"Restart"	f.restart
+	"Exit"		f.quit
+}

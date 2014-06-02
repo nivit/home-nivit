@@ -1,0 +1,11 @@
+# FreeBSD Port Tools configuration file - see porttools(5)
+# vim: ft=sh
+EMAIL="nivit@FreeBSD.org"
+FULLNAME="Nicola Vitale"
+ORGANIZATION=""
+BUILDROOT="/tmp"
+ARCHIVE_DIR=""
+DIFF_MODE="SVN"
+DIFF_VIEWER="most"
+PORTLINT_FLAGS="abct"
+PORTSDIR="/usr/ports"

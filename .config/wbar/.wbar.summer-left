@@ -1,0 +1,91 @@
+i: /usr/local/share/pixmaps/wbar/dock.png
+c: wbar --pos left --grow --vbar --filter 1 --fc 0xffffd700
+t: /usr/local/lib/X11/fonts/webfonts/arial/10
+
+i: /usr/home/nivit/.icons/mapyrus/wbar-config.png
+c: wbar-config
+t: wbar-config
+
+i: /usr/home/nivit/.icons/mapyrus/xcalc.png
+c: xcalc
+t: calculator
+
+i: /usr/home/nivit/.icons/Metronome/pngs_white/System/computer.png
+c: xterm -geometry 80x24+220+260
+t: bash
+
+i: /home/nivit/.icons/Metronome/pngs_white/Other/dreampie.png
+c: dreampie
+t: DreamPie
+
+i: /usr/home/nivit/.icons/mapyrus/chess.png
+c: chrome --user-data-dir=/home/nivit/.config/chromium.chess
+t: scacchi
+
+i: /home/nivit/.icons/Metronome/pngs_white/Internet/chrome.png
+c: chrome
+t: chrome
+
+i: /home/nivit/.icons/Metronome/pngs_white/Internet/firefox.png
+c: firefox -ProfileManager --no-remote
+t: Firefox
+
+i: /home/nivit/.icons/Metronome/pngs_white/Other/acrobat.png
+c: FoxitReader
+t: FoxitReader
+
+i: /home/nivit/.icons/Metronome/pngs_white/Media/paint.png
+c: gimp
+t: gimp
+
+i: /usr/home/nivit/.icons/Metronome/pngs_white/Media/audacity.png
+c: xterm -class "Cmus" -e cmus
+t: cmus
+
+i: /usr/home/nivit/.icons/Metronome/pngs_white/Media/audacity.png
+c: chrome --user-data-dir=/home/nivit/.config/chromium.grooveshark http://www.grooveshark.com
+t: grooveshark
+
+i: /usr/home/nivit/.icons/Metronome/pngs_white/Media/audacity.png
+c: xterm -class "Mps" -e mps
+t: mps
+
+i: /usr/home/nivit/.icons/mapyrus/gmplayer.png
+c: gmplayer
+t: gmplayer
+
+i: /usr/home/nivit/.icons/mapyrus/gmplayer.png
+c: xterm -class "Mps" -e mpsyt
+t: mps-youtube
+
+i: /usr/home/nivit/.icons/mapyrus/gqview.png
+c: gqview
+t: gqview
+
+i: /usr/home/nivit/.icons/Metronome/pngs_white/Communication/messenger.png
+c: pidgin
+t: pidgin
+
+i: /usr/home/nivit/.icons/mapyrus/rox-filer.png
+c: rox
+t: rox
+
+i: /usr/home/nivit/.icons/Metronome/pngs_white/Communication/rss.png
+c: firefox -P feedly -no-remote
+t: news
+
+i: /usr/home/nivit/.icons/Metronome/pngs_white/Communication/skype.png
+c: skype
+t: skype
+
+i: /home/nivit/.icons/Metronome/pngs_white/Internet/twitter.png
+c: firefox -P yoono -no-remote
+t: social-networks
+
+i: /usr/home/nivit/.icons/mapyrus/vim.png
+c: gvim
+t: gvim
+
+i: /usr/home/nivit/.icons/MonoWhite/scalable/apps/epub-white.png
+c: calibre
+t: calibre

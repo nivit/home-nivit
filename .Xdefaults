@@ -1,0 +1,20 @@
+*mps*background: rgb:3b/3b/3b
+*mps*foreground: rgb:d0/d0/d0
+*mps*internalBorder: 8
+*BorderWidth: 8
+*customization: -color
+*faceName: DejaVu Sans Mono:pixelsize=18
+*loginShell: false
+*termName: xterm-256color
+*utmpInhibit: true
+.xterm.*background: rgb:3b/3b/3b
+.xterm.*foreground: rgb:d0/d0/d0
+.xterm.backarrowkey: false
+.xterm.vt100.backarrowkeyIsErase: true
+.xterm.vt100.colorBD: red
+.xterm.vt100.colorBDMode: true
+.xterm.vt100.colorBL: magenta
+.xterm.vt100.colorBLMode: true
+.xterm.vt100.colorUL: blue
+.xterm.vt100.colorULMode: true
+.xterm.vt100.printerColor: Red

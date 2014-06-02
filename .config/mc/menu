@@ -1,0 +1,22 @@
+4 M4a to MP3
+    /usr/local/bin/ffmpeg -i %f $(basename %f .m4a).mp3
+b Make a backup copy
+    /home/nivit/bin/bak %f
+d Detox file
+    /usr/local/bin/detox %f
+e Edit with vim
+    if [ -f %f ]; then \
+      /usr/local/bin/vim %f; \
+    fi
+g Fix MP3 gain
+  mp3gain -r -c %f
+i Add ID3 tag
+    id3 -m "%%t-%%a.mp3"
+o Ogg file to MP3
+    /usr/local/bin/ffmpeg -i %f $(basename %f .ogg).mp3
+p Play MP3
+    /usr/local/bin/mplayer %f
+s Set flag uchg
+    chflags uchg %s; ls -lo %s
+u Unset flag uchg
+    chflags nouchg %s; ls -lo %s

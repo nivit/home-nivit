@@ -1,0 +1,221 @@
+# Required ports:
+# audio/espeak
+# x11-fonts/artwiz-aleczapka-en
+# x11/xclip
+AutoRelativeResize
+BorderWidth 8
+DecorateTransients
+DontMoveOff
+FramePadding 4
+IconDirectory "/home/nivit/.icons/twm"
+IconFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
+IconManagerDontShow { "flat-weather" "Conky" "guake" "xclock" "wbar" "panel" "Gnome-pie" "tickr" }
+IconManagerFont "-*-courier-bold-r-*-*-*-100-*-*-*-*-*-*"
+#IconManagerGeometry  "236x100-0+0"
+IconManagerGeometry "253x112-74+51"
+IconifyByUnmapping
+MenuBorderWidth 4
+MenuFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
+#MaxWindowSize "1264x1024+0-0"
+MaxWindowSize "1264x895"
+NoDefaults
+NoGrabServer
+NoHighlight { "flat-weather" "Cmus" "Conky" "Chrome" "DreamPie" "Firefox" "FoxitReader" "guake" "MPlayer" "wbar" "xclock" "panel" "Gnome-pie" "ROX-Filer" "Skype" "XTerm" "tickr" }
+NoStackMode { "flat-weather" "Conky" "guake" "wbar" "panel" "Gnome-pie" "tickr" }
+NoTitle { "flat-weather" "Conky" "guake" "MPlayer" "xclock" "wbar" "VDR" "panel" "Gnome-pie" "tickr" "xfce4-notifyd" }
+NoTitleFocus
+NoTitleHighlight
+ResizeFont "-adobe-helvetica-bold-r-normal--*-120-*-*-*-*-*-*"
+RestartPreviousState
+SortIconManager
+StartIconified { "ticrk" }
+TitleFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
+UsePPosition "On"
+# Use xprop to see WM_CLASS of the application you want to add
+WindowRing {"xterm" "Calibre" "Chrome" "DreamPie" "Eclipse" "Firefox" "FoxitReader" "GeoGebra" "opera" "MPlayer" "cmus" "display" "Skype" "ninja-ide" "ROX-Filer" "Chrome" "gvim" }
+
+Color
+{
+    BorderColor "rgb:cd/37/00" {
+	"Conky" "rgb:63/54/b4"
+	"gvim" "rgb:00/80/00"
+        "Calibre" "rgb:52/4b/45"
+        "Chrome" "RoyalBlue2"
+        "Cmus" "rgb:6c/4d/36"
+	"DreamPie" "rgb:62/af/ff"
+        "Eclipse" "MediumPurple4"
+        "Firefox" "orange"
+        "FoxitReader" "sienna1"
+        "GQview" "goldenrod1"
+        "GeoGebra" "MediumPurple1"
+        "Gimp" "rgb:8b/79/5e"
+        "Gnome-pie" "rgb:cd/37/00"
+        "Guake" "black"
+        "Panel" "rgb:a0/b1/cb"
+        "Pidgin" "rgb:7a/4a/85"
+        "ROX-Filer" "rgb:66/99/cc"
+        "Skype" "turquoise4"
+        "VirtualBox" "rgb:41/18/39"
+        "XClock" "rgb:cd/37/00"
+        "XTerm" "rgb:55/62/70"
+        "Xcalc" "rgb:99/aa/99"
+        "xzoom" "YellowGreen"
+    }
+    BorderTileBackground "rgb:ff/45/00" {
+	"Conky" "rgb:63/54/b4"
+	"gvim" "rgb:00/80/00"
+        "Calibre" "rgb:52/4b/45"
+        "Chrome" "RoyalBlue2"
+        "Cmus" "rgb:6c/4d/36"
+	"DreamPie" "rgb:62/af/ff"
+        "Eclipse" "MediumPurple4"
+        "Firefox" "orange"
+        "FoxitReader" "sienna1"
+        "GQview" "goldenrod1"
+        "GeoGebra" "MediumPurple1"
+        "Gimp" "rgb:8b/79/5e"
+        "Gnome-pie" "rgb:cd/37/00"
+        "Panel" "rgb:ff/45/00"
+        "Pidgin" "rgb:7a/4a/85"
+        "ROX-Filer" "rgb:66/99/cc"
+        "Skype"	 "turquoise4"
+        "VirtualBox" "rgb:41/18/39"
+        "XClock" "rgb:ff/45/00"
+        "XTerm" "rgb:55/62/70"
+        "xcalc" "rgb:99/aa/99"
+        "xzoom" "YellowGreen"
+    }
+
+    BorderTileForeground "rgb:d9/d9/d9"
+
+    DefaultBackground "rgb:ff/45/00"
+    DefaultForeground "rgb:d9/d9/d9"
+
+    IconBackground "rgb:ff/45/00"
+    IconBorderColor "rgb:d9/d9/d9"
+    IconForeground "rgb:d9/d9/d9"
+    IconManagerBackground "rgb:ff/45/00"
+    IconManagerForeground "rgb:d9/d9/d9"
+
+    MenuBorderColor "rgb:d9/d9/d9"
+    MenuBackground "rgb:ff/45/00"
+    MenuForeground "rgb:d9/d9/d9"
+    MenuShadowColor     "rgb:ff/45/00"
+    MenuTitleForeground "rgb:ff/45/00"
+    MenuTitleBackground "rgb:d9/d9/d9"
+
+
+    TitleBackground "rgb:ff/45/00" {
+	"gvim" "rgb:00/80/00"
+        "Calibre" "rgb:52/4b/45"
+        "Chrome" "RoyalBlue2"
+        "Cmus" "rgb:6c/4d/36"
+	"DreamPie" "rgb:62/af/ff"
+        "Eclipse" "MediumPurple4"
+        "Firefox" "orange"
+        "FoxitReader" "sienna1"
+        "GQview" "goldenrod1"
+        "GeoGebra" "MediumPurple1"
+        "Gimp" "rgb:8b/79/5e"
+        "Pidgin" "rgb:7a/4a/85"
+        "ROX-Filer" "rgb:66/99/cc"
+        "Skype"	 "turquoise4"
+        "VirtualBox" "rgb:41/18/39"
+        "XClock" "rgb:d9/d9/d9"
+        "XTerm" "rgb:55/62/70"
+        "Xcalc" "rgb:99/aa/99"
+        "xzoom" "YellowGreen"
+    }
+    TitleForeground "white" {
+        "Calibre" "rgb:ee/ae/20"
+        "Cmus" "rgb:ff/d6/a6"
+	"DreamPie" "rgb:ff/ff/ff"
+        "GQview" "rgb:30/3a/cf"
+        "Xcalc" "rgb:99/aa/99"
+        "Xzoom" "YellowGreen"
+    }
+}
+
+RightTitleButton "close.xbm"=f.delete
+RightTitleButton "minimize2.xbm"=f.iconify
+RightTitleButton "resize4.xbm"=f.resize
+RightTitleButton "maximize.xbm"=f.fullzoom
+
+Function "move-or-iconify" { f.move f.deltastop f.iconify }
+Function "move-or-lower" { f.move f.deltastop f.lower }
+Function "move-or-raise" { f.move f.deltastop f.raise }
+
+Button1 = : icon : f.function "move-or-iconify"
+Button1 = : iconmgr : f.raise
+Button1 = : title : f.function "move-or-raise"
+Button1 = m : window|icon : f.function "move-or-lower"
+Button2 = : icon : f.iconify
+Button2 = : title : f.fullzoom
+Button2 = m : window|icon : f.iconify
+Button3 = : iconmgr : f.iconify
+Button3 = : root : f.menu "defops"
+Button3 = : title : f.delete
+Button3 = m : window|icon : f.function "move-or-raise"
+
+"F4" = m | s :all :f.delete
+"F5" = m :all :f.fullzoom
+"F6" = m :all :f.iconify
+"F7" = m :all :f.horizoom
+"F8" = m :all :f.zoom
+"F9" = m :all :f.leftzoom
+"F10" = m :all: f.rightzoom
+"F12" = :all: f.exec "guake --show-hide"
+
+"Print" = :all :f.exec "scrot -s '%Y-%m-%d_$wx$h.png' -e 'mv $f ~/multimedia/images/screenshots/'&"
+"Tab" = m :all :f.warpring "next"
+"XF86AudioLowerVolume" = :all :f.exec "mixerManager.py lower&"
+"XF86AudioMedia" = :all :f.exec "/home/nivit/bin/cmus-now-playing.sh&"
+"XF86AudioMute" = :all :f.exec "mixerManager.py mute&"
+"XF86AudioPrev" = :all :f.exec "cmus-remote -r&"
+"XF86AudioNext" = :all :f.exec "cmus-remote -n&"
+"XF86AudioRaiseVolume" = :all :f.exec "mixerManager.py raise&"
+"XF86Mail" = :all :f.exec "thunderbird -P&"
+"XF86WWW" = :all :f.exec "exec opera&"
+"XF86Finance" = :all :f.exec "cmus-now-playing.sh&"
+
+"c" = m|c :all :f.exec "guake -n mc -r mc -e mc&"
+"h" = m|c :all :f.hideiconmgr
+"k" = m|c :all :f.exec "tellme.sh&"
+"b" = m|c :all :f.exec "mixerManager.py lower&"
+"p" = m|c :all :f.exec "gnome-pie --class=Gnomepie --name=gnomepie&"
+"s" = m|c :all :f.showiconmgr
+"t" = m|c :all :f.exec "mixerManager.py raise&"
+
+menu "defops" ("rgb:ff/45/00" : "rgb:d9/d9/d9")
+{
+	"Twm"	f.title
+	"Iconify"	f.iconify
+	"Resize"	f.resize
+	"Move"		f.move
+	"Raise"		f.raise
+	"Lower"		f.lower
+	"Focus"		f.focus
+	"Unfocus"	f.unfocus
+	"Show Iconmgr"	f.showiconmgr
+	"Hide Iconmgr"	f.hideiconmgr
+	"Terminals"	f.title
+	"Xterm"		f.exec "exec xterm -geometry 80x24+1445+190&"
+	"Applicazioni"	f.title
+	"GQview"	f.exec "exec gqview&"
+	"Firefox"	f.exec "exec firefox&"
+	"Gimp"		f.exec "exec gimp&"
+	"Tell me"	f.exec "(xclip -o | espeak --stdin)&"
+	"Translate me"	f.exec "exec translate-me.py&"
+	"Volume +"	f.exec "exec mixerManager.py raise&"
+	"Volume -"	f.exec "exec mixerManager.py lower&"
+	"XWindows Utility"		f.title
+	"Kill"		f.destroy
+	"Delete"	f.delete
+        "Screenshot"    f.exec "exec scrot -s '%Y-%m-%d_$wx$h.png' -q 100 -e 'mv $f ~/multimedia/images/screenshots/'&"
+	"XCalc"		f.exec "exec xcalc&"
+	"XColorsel"	f.exec "exec xcolorsel -rgb8&"
+        "XScreesaver"   f.exec "exec xscreensaver-command -lock&"
+	"Xzoom"		f.exec "exec xzoom&"
+	"Restart"	f.restart
+	"Exit"		f.quit
+}

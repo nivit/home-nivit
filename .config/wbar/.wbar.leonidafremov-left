@@ -1,0 +1,88 @@
+i: /usr/local/share/pixmaps/wbar/dock.png
+c: wbar --jumpf 1.0 --zoomf 1.0 --pos left --vbar -bpress --filter 1 --fc 0xffff4500 --idist 5 --rsize 0 --balfa 0 --falfa 100 --nanim 1 --nofont
+t: /usr/local/lib/X11/fonts/webfonts/arial/10
+
+#c: wbar --pos top-left --grow --obar --filter 1 --fc 0xffff4500 --idist 5
+i: /usr/home/nivit/.icons/captain-icon/wbar-config.png
+c: wbar-config
+t: wbar-config
+
+i: /usr/home/nivit/.icons/captain-icon/computer.png
+c: xterm -geometry 80x24+165+165
+t: bash
+
+i: /home/nivit/.icons/captain-icon/dreampie.png
+c: dreampie
+t: DreamPie
+
+i: /usr/home/nivit/.icons/captain-icon/chess.png
+c: chrome --user-data-dir=/home/nivit/.config/chromium.chess
+t: scacchi
+
+i: /home/nivit/.icons/captain-icon/chrome.png
+c: chrome
+t: chrome
+
+i: /home/nivit/.icons/captain-icon/firefox.png
+c: firefox -ProfileManager --no-remote
+t: Firefox
+
+i: /home/nivit/.icons/captain-icon/acrobat.png
+c: FoxitReader
+t: FoxitReader
+
+i: /home/nivit/.icons/captain-icon/paint.png
+c: gimp
+t: gimp
+
+i: /usr/home/nivit/.icons/captain-icon/sound.png
+c: xterm -class "Cmus" -e cmus
+t: cmus
+
+i: /usr/home/nivit/.icons/captain-icon/sound.png
+c: chrome --user-data-dir=/home/nivit/.config/chromium.grooveshark http://www.grooveshark.com
+t: grooveshark
+
+i: /usr/home/nivit/.icons/captain-icon/sound.png
+c: xterm -class "mps" -e mps
+t: mps
+
+i: /usr/home/nivit/.icons/captain-icon/multimedia.png
+c: gmplayer
+t: gmplayer
+
+i: /usr/home/nivit/.icons/captain-icon/youtube.png
+c: xterm -class "mps" -e mpsyt
+t: mps-youtube
+
+i: /usr/home/nivit/.icons/captain-icon/gqview.png
+c: gqview
+t: gqview
+
+i: /usr/home/nivit/.icons/captain-icon/messenger.png
+c: pidgin
+t: pidgin
+
+i: /usr/home/nivit/.icons/captain-icon/rox-filer.png
+c: rox
+t: rox
+
+i: /usr/home/nivit/.icons/captain-icon/rss.png
+c: chrome --user-data-dir=/home/nivit/.config/chromium.news
+t: news
+
+i: /usr/home/nivit/.icons/captain-icon/skype.png
+c: skype
+t: skype
+
+i: /home/nivit/.icons/captain-icon/social.png
+c: chrome --user-data-dir=/home/nivit/.config/chromium.social-networks
+t: social-networks
+
+i: /usr/home/nivit/.icons/captain-icon/epub.png
+c: calibre
+t: calibre
+
+i: /usr/home/nivit/.icons/captain-icon/vim.png
+c: gvim
+t: gvim
