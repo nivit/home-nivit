@@ -137,8 +137,10 @@ Color
 }
 
 RightTitleButton "close.xbm"=f.delete
-RightTitleButton "minimize2.xbm"=f.iconify
-RightTitleButton "resize4.xbm"=f.resize
+RightTitleButton "minimize.xbm"=f.iconify
+RightTitleButton "resize.xbm"=f.resize
+RightTitleButton "bottomzoom.xbm"=f.bottomzoom
+RightTitleButton "topzoom.xbm"=f.topzoom
 RightTitleButton "maximize.xbm"=f.fullzoom
 
 Function "move-or-iconify" { f.move f.deltastop f.iconify }
