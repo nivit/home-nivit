@@ -139,8 +139,6 @@ Color
 RightTitleButton "close.xbm"=f.delete
 RightTitleButton "minimize.xbm"=f.iconify
 RightTitleButton "resize.xbm"=f.resize
-RightTitleButton "bottomzoom.xbm"=f.bottomzoom
-RightTitleButton "topzoom.xbm"=f.topzoom
 RightTitleButton "maximize.xbm"=f.fullzoom
 
 Function "move-or-iconify" { f.move f.deltastop f.iconify }
@@ -193,6 +191,8 @@ menu "defops" ("rgb:ff/45/00" : "rgb:d9/d9/d9")
 	"Twm"	f.title
 	"Iconify"	f.iconify
 	"Resize"	f.resize
+	"Top Zoom"	f.topzoom
+	"Bottom Zoom"	f.bottomzoom
 	"Move"		f.move
 	"Raise"		f.raise
 	"Lower"		f.lower
@@ -207,7 +207,8 @@ menu "defops" ("rgb:ff/45/00" : "rgb:d9/d9/d9")
 	"Firefox"	f.exec "exec firefox&"
 	"Gimp"		f.exec "exec gimp&"
 	"Tell me"	f.exec "(xclip -o | espeak --stdin)&"
-	"Translate me"	f.exec "exec translate-me.py&"
+	"Traduci mi!"	f.exec "exec traduci-mi.sh&"
+	"Translate me!"	f.exec "exec translate-me.sh&"
 	"Volume +"	f.exec "exec mixerManager.py raise&"
 	"Volume -"	f.exec "exec mixerManager.py lower&"
 	"XWindows Utility"		f.title
