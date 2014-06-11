@@ -20,7 +20,7 @@ MenuFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
 MaxWindowSize "1264x895"
 NoDefaults
 NoGrabServer
-NoHighlight { "flat-weather" "Cmus" "Conky" "Chrome" "DreamPie" "Firefox" "FoxitReader" "guake" "MPlayer" "wbar" "xclock" "panel" "Gnome-pie" "ROX-Filer" "Skype" "XTerm" "tickr" }
+NoHighlight { "ebook-viewer" "flat-weather" "Calibre" "Cmus" "Conky" "Chrome" "DreamPie" "Firefox" "FoxitReader" "guake" "MPlayer" "wbar" "xclock" "panel" "Gnome-pie" "ROX-Filer" "Skype" "XTerm" "tickr" }
 NoStackMode { "flat-weather" "Conky" "guake" "wbar" "panel" "Gnome-pie" "tickr" }
 NoTitle { "flat-weather" "Conky" "guake" "MPlayer" "xclock" "wbar" "VDR" "panel" "Gnome-pie" "tickr" "xfce4-notifyd" }
 NoTitleFocus
@@ -32,13 +32,14 @@ StartIconified { "ticrk" }
 TitleFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
 UsePPosition "On"
 # Use xprop to see WM_CLASS of the application you want to add
-WindowRing {"xterm" "Calibre" "Chrome" "DreamPie" "Eclipse" "Firefox" "FoxitReader" "GeoGebra" "opera" "MPlayer" "cmus" "display" "Skype" "ninja-ide" "ROX-Filer" "Chrome" "gvim" }
+WindowRing { "ebook-viewer" "xterm" "Calibre" "Chrome" "DreamPie" "Eclipse" "Firefox" "FoxitReader" "GeoGebra" "opera" "MPlayer" "cmus" "display" "Skype" "ninja-ide" "ROX-Filer" "Chrome" "gvim" }
 
 Color
 {
     BorderColor "rgb:cd/37/00" {
 	"Conky" "rgb:63/54/b4"
 	"gvim" "rgb:00/80/00"
+        "ebook-viewer" "rgb:52/4b/45"
         "Calibre" "rgb:52/4b/45"
         "Chrome" "RoyalBlue2"
         "Cmus" "rgb:6c/4d/36"
@@ -64,6 +65,7 @@ Color
     BorderTileBackground "rgb:ff/45/00" {
 	"Conky" "rgb:63/54/b4"
 	"gvim" "rgb:00/80/00"
+        "ebook-viewer" "rgb:52/4b/45"
         "Calibre" "rgb:52/4b/45"
         "Chrome" "RoyalBlue2"
         "Cmus" "rgb:6c/4d/36"
@@ -107,6 +109,7 @@ Color
 
     TitleBackground "rgb:ff/45/00" {
 	"gvim" "rgb:00/80/00"
+        "ebook-viewer" "rgb:52/4b/45"
         "Calibre" "rgb:52/4b/45"
         "Chrome" "RoyalBlue2"
         "Cmus" "rgb:6c/4d/36"
@@ -127,6 +130,7 @@ Color
         "xzoom" "YellowGreen"
     }
     TitleForeground "white" {
+        "ebook-viewer" "rgb:ee/ae/20"
         "Calibre" "rgb:ee/ae/20"
         "Cmus" "rgb:ff/d6/a6"
 	"DreamPie" "rgb:ff/ff/ff"
