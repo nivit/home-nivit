@@ -20,9 +20,9 @@ MenuFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
 MaxWindowSize "1264x895"
 NoDefaults
 NoGrabServer
-NoHighlight { "ebook-viewer" "flat-weather" "Calibre" "Cmus" "Conky" "Chrome" "DreamPie" "Firefox" "FoxitReader" "guake" "MPlayer" "wbar" "xclock" "panel" "Gnome-pie" "ROX-Filer" "Skype" "XTerm" "tickr" }
+NoHighlight { "Gvim" "VirtualBox" "feh" "ebook-viewer" "flat-weather" "Calibre" "Cmus" "Conky" "Chrome" "DreamPie" "Firefox" "FoxitReader" "guake" "MPlayer" "wbar" "xclock" "panel" "Gnome-pie" "ROX-Filer" "Skype" "XTerm" "tickr" }
 NoStackMode { "flat-weather" "Conky" "guake" "wbar" "panel" "Gnome-pie" "tickr" }
-NoTitle { "flat-weather" "Conky" "guake" "MPlayer" "xclock" "wbar" "VDR" "panel" "Gnome-pie" "tickr" "xfce4-notifyd" }
+NoTitle { "feh" "flat-weather" "Conky" "guake" "MPlayer" "xclock" "wbar" "VDR" "panel" "Gnome-pie" "tickr" "xfce4-notifyd" }
 NoTitleFocus
 NoTitleHighlight
 ResizeFont "-adobe-helvetica-bold-r-normal--*-120-*-*-*-*-*-*"
@@ -186,6 +186,7 @@ Button3 = m : window|icon : f.function "move-or-raise"
 "h" = m|c :all :f.hideiconmgr
 "k" = m|c :all :f.exec "tellme.sh&"
 "b" = m|c :all :f.exec "mixerManager.py lower&"
+"o" = m|c :all :f.exec "feh -g 1024x724+1377+96 -x ~/Documents/vim/vi-vim-cheat-sheet.gif&"
 "p" = m|c :all :f.exec "gnome-pie --class=Gnomepie --name=gnomepie&"
 "s" = m|c :all :f.showiconmgr
 "t" = m|c :all :f.exec "mixerManager.py raise&"
