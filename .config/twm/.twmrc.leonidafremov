@@ -140,10 +140,10 @@ Color
     }
 }
 
-RightTitleButton "close.xbm"=f.delete
-RightTitleButton "minimize.xbm"=f.iconify
 RightTitleButton "resize.xbm"=f.resize
+RightTitleButton "minimize.xbm"=f.iconify
 RightTitleButton "maximize.xbm"=f.fullzoom
+RightTitleButton "close.xbm"=f.delete
 
 Function "move-or-iconify" { f.move f.deltastop f.iconify }
 Function "move-or-lower" { f.move f.deltastop f.lower }
@@ -186,7 +186,7 @@ Button3 = m : window|icon : f.function "move-or-raise"
 "h" = m|c :all :f.hideiconmgr
 "k" = m|c :all :f.exec "tellme.sh&"
 "b" = m|c :all :f.exec "mixerManager.py lower&"
-"o" = m|c :all :f.exec "feh -g 1024x724+1377+96 -x ~/Documents/vim/vi-vim-cheat-sheet.gif&"
+"o" = m|c :all :f.exec "feh -g 1024x724+1568+88 -x ~/Documents/vim/vi-vim-cheat-sheet.gif&"
 "p" = m|c :all :f.exec "gnome-pie --class=Gnomepie --name=gnomepie&"
 "s" = m|c :all :f.showiconmgr
 "t" = m|c :all :f.exec "mixerManager.py raise&"
