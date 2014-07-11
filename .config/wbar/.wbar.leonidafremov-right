@@ -1,5 +1,5 @@
 i: /usr/local/share/pixmaps/wbar/dock.png
-c: wbar --jumpf 1.0 --zoomf 1.0 --pos right --vbar -bpress --filter 1 --fc 0xffff4500 --idist 5 --rsize 0 --balfa 0 --falfa 100 --nanim 1 --nofont
+c: wbar --jumpf 1.0 --zoomf 1.0 --pos right --vbar -bpress --filter 1 --fc 0xffff4500 --idist 5 --rsize 1 --balfa 0 --falfa 100 --nanim 1 --nofont --isize 24
 t: /usr/local/lib/X11/fonts/webfonts/arial/10
 
 i: /usr/home/nivit/.icons/captain-icon/wbar-config.png
