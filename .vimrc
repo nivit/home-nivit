@@ -15,3 +15,5 @@ set showcmd
 autocmd FileType text setlocal textwidth=78
 
 colorscheme zellner
+
+set keywordprg=trs\ {en=it}
