@@ -15,8 +15,8 @@ set noguipty
 
 " set the X11 font to use
 "set guifont=-misc-fixed-medium-r-normal--14-130-75-75-c-70-iso8859-1
-"set guifont="Courier 10 Pitch 18"
 set guifont=Dejavu\ Sans\ Mono\ 14
+"set guifont=Courier\ 10\ Pitch\ 14
 set ch=1		" Make command line two lines high
 
 set mousehide		" Hide the mouse when typing text
@@ -50,11 +50,13 @@ if version >= 500
   " Text below the last line is darker grey
   " Cursor is green, Cyan when ":lmap" mappings are active
   " Constants are not underlined but have a slightly lighter background
-  highlight Normal guibg=grey90
-  highlight Cursor guibg=Green guifg=NONE
-  highlight lCursor guibg=Cyan guifg=NONE
-  highlight NonText guibg=grey80
-  highlight Constant gui=NONE guibg=grey95
-  highlight Special gui=NONE guibg=grey95
+  "highlight Normal guibg=grey90
+  ""highlight Normal guibg=#3b3b3b guifg=#afaf87
+  "highlight Cursor guibg=Green guifg=NONE
+  "highlight lCursor guibg=Cyan guifg=NONE
+  "highlight NonText guibg=grey80
+  "highlight NonText guibg=#3b3b3b
+  "highlight Constant gui=NONE guibg=grey95
+  "highlight Special gui=NONE guibg=grey95
 
 endif
