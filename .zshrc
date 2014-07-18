@@ -2,10 +2,10 @@
 export ZSH=$HOME/.oh-my-zsh
 
 if [[ -z "${DISPLAY}" ]]; then
-	alias mc='mc -a -u -S gotar'
+	alias mc='mc -a -S gotar'
 else
 	export TERM=xterm-256color
-	alias mc='mc -a -u -S modarin256'
+	alias mc='mc -S modarin256'
 fi
 
 export BROWSER=chrome
@@ -24,6 +24,7 @@ fi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+alias addport='/usr/ports/Tools/scripts/addport'
 alias diff='diff -ruN'
 alias ffall='ssh freefall.FreeBSD.org'
 alias lA='ls -Al'
@@ -31,12 +32,21 @@ alias ll='ls -l'
 alias ls-mac='ssh nistavi@macaco ls'
 alias psvn='/usr/ports/Tools/scripts/psvn'
 alias rsync-music="rsync -avz nistavi@192.168.1.37:'/Users/nistavi/Music/iTunes/iTunes\ Media/Music' /home/nivit/multimedia/"
+alias ssh-add-bbm='ssh-add ~/.ssh/bitbucket_mordigante'
+alias ssh-add-bbn='ssh-add ~/.ssh/bitbucket_nivit'
+alias ssh-add-fb='ssh-add ~/.ssh/freebsd'
+alias ssh-add-ghn='ssh-add ~/.ssh/github_nivit'
+alias ssh-add-kod='ssh-add ~/.ssh/koding_nivit'
 alias ssh-add-sf='ssh-add ~/.ssh/sourceforge'
+alias ssh-add-wmi='ssh-add ~/.ssh/matematicamente'
+alias ssh-ff='ssh nivit@freefall.FreeBSD.org'
+alias ssh-kod='ssh vm-0.nivit.koding.kd.io'
 alias ssh-mac='ssh nistavi@192.168.0.37'
 alias ssh-mawmi='ssh matematicamenteit@web2.matematicamente.it'
 alias ssh-mowmi='ssh mordigante@web2.matematicamente.it'
 alias startx-twm='env START_TWM=1 startx -- :1'
 alias startx='startx -- :1'
+alias trs-enit='translate {en=it}'
 alias zshconfig="vim ~/.zshrc"
 #
 # Uncomment the following line to use case-sensitive completion.
@@ -86,7 +96,7 @@ fi
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git colorize github mercurial node npm rsync svn)
+plugins=(git colorize github mercurial node npm rsync)
 source $ZSH/oh-my-zsh.sh
 
 
