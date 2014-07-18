@@ -60,3 +60,6 @@ if version >= 500
   "highlight Special gui=NONE guibg=grey95
 
 endif
+
+" https://github.com/chriskempson/base16-vim
+colorscheme base16-brewer
