@@ -8,6 +8,7 @@ else
 	alias mc='mc -a -u -S modarin256'
 fi
 
+export BROWSER=chrome
 export PAGER=most
 
 # Set name of the theme to load.
