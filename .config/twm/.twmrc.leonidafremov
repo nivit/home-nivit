@@ -17,7 +17,7 @@ IconifyByUnmapping
 MenuBorderWidth 4
 MenuFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
 #MaxWindowSize "1264x1024+0-0"
-MaxWindowSize "1264x895"
+MaxWindowSize "1264x960"
 NoDefaults
 NoGrabServer
 NoHighlight { "Gvim" "VirtualBox" "feh" "ebook-viewer" "flat-weather" "Calibre" "Cmus" "Conky" "Chrome" "DreamPie" "Firefox" "FoxitReader" "guake" "MPlayer" "wbar" "xclock" "panel" "Gnome-pie" "ROX-Filer" "Skype" "XTerm" "tickr" }
@@ -141,7 +141,7 @@ Color
 }
 
 RightTitleButton "resize.xbm"=f.resize
-RightTitleButton "minimize.xbm"=f.iconify
+RightTitleButton "minimize4.xbm"=f.iconify
 RightTitleButton "maximize.xbm"=f.fullzoom
 RightTitleButton "close.xbm"=f.delete
 
