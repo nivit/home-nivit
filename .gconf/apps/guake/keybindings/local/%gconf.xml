@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<gconf>
+	<entry name="clipboard_paste" mtime="1388935068" type="string">
+		<stringvalue>&lt;Alt&gt;v</stringvalue>
+	</entry>
+	<entry name="clipboard_copy" mtime="1388935066" type="string">
+		<stringvalue>&lt;Alt&gt;c</stringvalue>
+	</entry>
+	<entry name="close_tab" mtime="1388935056" type="string">
+		<stringvalue>&lt;Alt&gt;w</stringvalue>
+	</entry>
+	<entry name="new_tab" mtime="1388935052" type="string">
+		<stringvalue>&lt;Alt&gt;n</stringvalue>
+	</entry>
+	<entry name="quit" mtime="1388935046" type="string">
+		<stringvalue>&lt;Alt&gt;q</stringvalue>
+	</entry>
+</gconf>
