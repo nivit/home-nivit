@@ -20,7 +20,7 @@ MenuFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
 MaxWindowSize "1264x960"
 NoDefaults
 NoGrabServer
-NoHighlight { "Gvim" "VirtualBox" "feh" "ebook-viewer" "flat-weather" "Calibre" "Cmus" "Conky" "Chrome" "DreamPie" "Firefox" "FoxitReader" "guake" "MPlayer" "wbar" "xclock" "panel" "Gnome-pie" "ROX-Filer" "Skype" "XTerm" "tickr" }
+NoHighlight { "Gvim" "VirtualBox" "feh" "ebook-viewer" "flat-weather" "Calibre" "Cmus" "Conky" "Chrome" "DreamPie" "Firefox" "FoxitReader" "guake" "MPlayer" "wbar" "tkradio" "xclock" "panel" "Gnome-pie" "ROX-Filer" "Skype" "XTerm" "tickr" }
 NoStackMode { "flat-weather" "Conky" "guake" "wbar" "panel" "Gnome-pie" "tickr" }
 NoTitle { "feh" "flat-weather" "Conky" "guake" "MPlayer" "xclock" "wbar" "VDR" "panel" "Gnome-pie" "tickr" "xfce4-notifyd" }
 NoTitleFocus
@@ -32,7 +32,7 @@ StartIconified { "ticrk" }
 TitleFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
 UsePPosition "On"
 # Use xprop to see WM_CLASS of the application you want to add
-WindowRing { "ebook-viewer" "xterm" "Calibre" "Chrome" "DreamPie" "Eclipse" "Firefox" "FoxitReader" "GeoGebra" "opera" "MPlayer" "cmus" "display" "Skype" "ninja-ide" "ROX-Filer" "Chrome" "gvim" }
+WindowRing { "ebook-viewer" "xterm" "Calibre" "Chrome" "DreamPie" "Eclipse" "Firefox" "FoxitReader" "GeoGebra" "opera" "MPlayer" "cmus" "display" "Skype" "Tkradio" "ninja-ide" "ROX-Filer" "Chrome" "gvim" }
 
 Color
 {
@@ -56,6 +56,7 @@ Color
         "Pidgin" "rgb:7a/4a/85"
         "ROX-Filer" "rgb:66/99/cc"
         "Skype" "turquoise4"
+	"Tkradio" "rgb:12/58/80"
         "VirtualBox" "rgb:41/18/39"
         "XClock" "rgb:cd/37/00"
         "XTerm" "rgb:55/62/70"
@@ -81,6 +82,7 @@ Color
         "Pidgin" "rgb:7a/4a/85"
         "ROX-Filer" "rgb:66/99/cc"
         "Skype"	 "turquoise4"
+	"Tkradio" "rgb:12/58/80"
         "VirtualBox" "rgb:41/18/39"
         "XClock" "rgb:ff/45/00"
         "XTerm" "rgb:55/62/70"
@@ -123,6 +125,7 @@ Color
         "Pidgin" "rgb:7a/4a/85"
         "ROX-Filer" "rgb:66/99/cc"
         "Skype"	 "turquoise4"
+	"Tkradio" "rgb:12/58/80"
         "VirtualBox" "rgb:41/18/39"
         "XClock" "rgb:d9/d9/d9"
         "XTerm" "rgb:55/62/70"
@@ -166,7 +169,7 @@ Button3 = m : window|icon : f.function "move-or-raise"
 "F6" = m :all :f.iconify
 "F7" = m :all :f.horizoom
 "F8" = m :all :f.zoom
-"F9" = m :all :f.leftzoom
+#"F9" = m :all :f.leftzoom
 "F10" = m :all: f.rightzoom
 "F12" = :all: f.exec "guake --show-hide"
 
