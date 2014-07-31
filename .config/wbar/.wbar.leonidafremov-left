@@ -47,6 +47,10 @@ i: /usr/home/nivit/.icons/captain-icon/sound.png
 c: xterm -class "mps" -e mps
 t: mps
 
+i: /usr/home/nivit/.icons/captain-icon/sound.png
+c: /home/nivit/bin/tkradio
+t: tkradio
+
 i: /usr/home/nivit/.icons/captain-icon/multimedia.png
 c: gmplayer
 t: gmplayer
