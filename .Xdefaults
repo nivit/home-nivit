@@ -1,7 +1,7 @@
 *mps*background: rgb:3b/3b/3b
 *mps*foreground: rgb:d0/d0/d0
 *mps*internalBorder: 8
-*BorderWidth: 8
+!*BorderWidth: 8
 *customization: -color
 *faceName: DejaVu Sans Mono:pixelsize=18
 *loginShell: false
