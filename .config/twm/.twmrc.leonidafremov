@@ -20,7 +20,7 @@ MenuFont "-adobe-helvetica-bold-r-normal--*-100-*-*-*-*-*-*"
 MaxWindowSize "1264x960"
 NoDefaults
 NoGrabServer
-NoHighlight { "Gvim" "VirtualBox" "feh" "ebook-viewer" "flat-weather" "Calibre" "Cmus" "Conky" "Chrome" "DreamPie" "Firefox" "FoxitReader" "guake" "MPlayer" "wbar" "tkradio" "xclock" "panel" "Gnome-pie" "ROX-Filer" "Skype" "XTerm" "tickr" }
+NoHighlight { "Gvim" "VirtualBox" "feh" "ebook-viewer" "flat-weather" "Calibre" "Cmus" "Conky" "Chrome" "DreamPie" "Firefox" "FoxitReader" "guake" "mps" "mpsyt" "MPlayer" "wbar" "tkradio" "xclock" "panel" "Gnome-pie" "ROX-Filer" "Skype" "XTerm" "tickr" }
 NoStackMode { "flat-weather" "Conky" "guake" "wbar" "panel" "Gnome-pie" "tickr" }
 NoTitle { "feh" "flat-weather" "Conky" "guake" "MPlayer" "xclock" "wbar" "VDR" "panel" "Gnome-pie" "tickr" "xfce4-notifyd" }
 NoTitleFocus
@@ -56,6 +56,8 @@ Color
         "Pidgin" "rgb:7a/4a/85"
         "ROX-Filer" "rgb:66/99/cc"
         "Skype" "turquoise4"
+	"mps" "rgb:94/a8/3e"
+	"mpsyt" "rgb:21/48/89"
 	"Tkradio" "rgb:12/58/80"
         "VirtualBox" "rgb:41/18/39"
         "XClock" "rgb:cd/37/00"
@@ -82,6 +84,8 @@ Color
         "Pidgin" "rgb:7a/4a/85"
         "ROX-Filer" "rgb:66/99/cc"
         "Skype"	 "turquoise4"
+	"mps" "rgb:94/a8/3e"
+	"mpsyt" "rgb:21/48/89"
 	"Tkradio" "rgb:12/58/80"
         "VirtualBox" "rgb:41/18/39"
         "XClock" "rgb:ff/45/00"
@@ -125,6 +129,8 @@ Color
         "Pidgin" "rgb:7a/4a/85"
         "ROX-Filer" "rgb:66/99/cc"
         "Skype"	 "turquoise4"
+	"mps" "rgb:94/a8/3e"
+	"mpsyt" "rgb:21/48/89"
 	"Tkradio" "rgb:12/58/80"
         "VirtualBox" "rgb:41/18/39"
         "XClock" "rgb:d9/d9/d9"
