@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=/home/nivit/bin/tkradio
+Name=TkRadio
+Icon=/home/nivit/.icons/Metronome/pngs/Media/play_music.png

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=firefox -new-instance -no-remote -P telegram
+Icon=/home/nivit/.icons/telegram.png
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[it_IT]=Web Telegram
+Name=Web Telegram

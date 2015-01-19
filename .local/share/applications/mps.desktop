@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Exec=/usr/local/bin/mps
+Name=mps
+Icon=/usr/home/nivit/.icons/captain-icon/sound.png

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=firefox -new-instance -no-remote -P grooveshark
+Icon=/home/nivit/.icons/AwOken/clear/128x128/apps/grooveshark.png
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[it_IT]=Grooveshark
+Name=Grooveshark

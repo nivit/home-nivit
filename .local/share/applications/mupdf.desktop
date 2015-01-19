@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=false
+Exec=/usr/local/bin/mupdf
+Name=mupdf
+Icon=/home/nivit/.icons/Mono-0.3/apps/scalable/acroread.svg

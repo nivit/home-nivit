@@ -1,0 +1,8 @@
+[Desktop Entry]
+Exec=xscreensaver-command -lock
+Icon=xscreensaver
+Terminal=false
+Name=Lock the screen
+Name[it]=Blocca lo schermo
+Type=Application
+Categories=Settings;DesktopSettings;Security;X-XFCE;

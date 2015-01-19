@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=firefox -new-instance -no-remote -P skype
+Icon=/home/nivit/.icons/AwOken/clear/128x128/apps/skype1.png
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[it_IT]=Skype
+Name=Skype

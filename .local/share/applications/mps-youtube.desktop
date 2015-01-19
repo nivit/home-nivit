@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Exec=/usr/local/bin/mpsyt
+Name=Mps YouTube
+Icon=/usr/home/nivit/.icons/Varie/youtube.png

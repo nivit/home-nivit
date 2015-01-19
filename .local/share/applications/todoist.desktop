@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=firefox -new-instance -no-remote -P todoist
+Icon=/home/nivit/.icons/todoist.png
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[it_IT]=Todoist
+Name=Todoist

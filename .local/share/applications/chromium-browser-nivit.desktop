@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Encoding=UTF-8
+Name=Chromium (nivit)
+Comment=Google web browser based on WebKit
+Icon=chrome
+Exec=chrome --user-data-dir=/usr/home/nivit/.config/chromium.nivit
+Categories=Application;Network;WebBrowser;
+StartupNotify=true
