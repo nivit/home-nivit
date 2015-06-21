@@ -1,0 +1,8 @@
+sequence default {
+safe {
+};
+wipeup {
+    remove_trailing;
+};
+lower;
+};
